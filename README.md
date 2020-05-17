@@ -1,0 +1,2 @@
+# javaSnake
+just for training
