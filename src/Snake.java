@@ -3,6 +3,10 @@ import java.awt.*;
 
 public class Snake extends JFrame {
     private JPanel panel;
+    private final int COLOMS = 10;
+    private final int ROWS = 10;
+    private final int IMAGE_SIZE = 20;
+
     public static void main(String[] args) {
         new Snake();
     }
@@ -13,7 +17,8 @@ public class Snake extends JFrame {
     }
     private void initPanel(){
         panel = new JPanel();
-        panel.setPreferredSize(new Dimension(200,200));
+        panel.setPreferredSize(new Dimension(COLOMS * IMAGE_SIZE, ROWS *IMAGE_SIZE));
+        panel.setBackground(Color.BLACK);
         add(panel);
     }
     private void initFrame(){
