@@ -50,8 +50,8 @@ public class Snake extends JPanel implements ActionListener {
     }
 
     public void getImages() {
-        imageApple = loadImage("apple");
-        imageDot = loadImage("dot");
+        imageApple = loadImage("apple2");
+        imageDot = loadImage("dot2");
     }
 
     public Image loadImage(String name) {
